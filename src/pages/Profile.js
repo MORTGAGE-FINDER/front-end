@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { useUser } from '@auth0/nextjs-auth0/client';
+import Logout from './Logout';
 
 export default function Profile() {
   const { user, error, isLoading } = useUser();
@@ -11,9 +12,10 @@ export default function Profile() {
   return (
     user && (
       <div className="flex justify-center">
-        <img src={user.picture} alt={user.name} />
+        <Image src={user.picture} width="100" height="100" alt={user.name} />
         <h2>{user.name}</h2>
         <p>{user.email}</p>
+        <Logout />
       </div>
     )
   );

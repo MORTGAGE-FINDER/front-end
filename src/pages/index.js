@@ -1,10 +1,14 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Landing from './Landing'
+import { useUser } from '@auth0/nextjs-auth0/client';
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Loan() {
+  const { user } = useUser();
   return (
     <>
       <Head>
@@ -14,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Landing />
+      
       </>
   )
 }
