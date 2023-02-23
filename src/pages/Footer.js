@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Footer() {
     return (
-        <footer className="p-2 bg-white sm:p-0.5 dark:bg-gray-900 fixed bottom-0 w-full">
+        <footer className="p-2 bg-white sm:p-0.5 dark:bg-gray-900 bottom-0 w-full">
             <div className="sm:flex sm:items-center sm:justify-between pt-3 pb-3">
                 <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">LoanGenie™</a>. All Rights Reserved.
                 </span>

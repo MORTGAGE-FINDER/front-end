@@ -1,46 +1,63 @@
 import Image from "next/image"
 export default function About() {
   return (
-    <div className="flex-column">
-      <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-70 mt-4 w-30">
+    <div className="bg-[url('/images/krakenimages-Y5bvRlcCx8k-unsplash.jpg')] bg-contain bg-center">
+    <div className="flex justify-center">
+      <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-70 mr-20 mt-4 w-30">
         <div class="flex-column">
           <Image class="h-30 w-30 rounded-full object-cover mx-auto " src="https://ca.slack-edge.com/T039KG69K-U03V0N804HE-a1af50c10b55-192" width="200" height="200" alt="Avatar"/>
             <div>
-              <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Full Stack Software Developer</h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Eric Kinuthia<br></br>Full Stack Software Developer</h5>
+              <p class="font-normal text-gray-700 dark:text-gray-400">Former Delivery Driver<br></br>Creative thinker and great problem solver is constantly looking news to learn and grow</p>
+              <a href="https://github.com/EricMungai97" className="text-gray-500 hover:text-gray-900 dark:hover:text-white flex justify-center">
+                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                        <span className="sr-only">GitHub account</span>
+                    </a>
             </div>
         </div>
       </a>
       <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-70 mt-4 w-30">
         <div class="flex-column">
-          <Image class="h-30 w-30 rounded-full object-cover mx-auto " src="https://ca.slack-edge.com/T039KG69K-U03V0N804HE-a1af50c10b55-192" width="200" height="200" alt="Avatar"/>
+          <Image class="h-30 w-30 rounded-full object-cover mx-auto " src="https://ca.slack-edge.com/T039KG69K-U043BMUTN8Y-af494fd60f05-512" width="200" height="200" alt="Avatar"/>
             <div>
-              <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Full Stack Software Developer</h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            </div>
-        </div>
-      </a>
-      <div className="">
-      <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-70 mt-4 w-30">
-        <div class="flex-column">
-          <Image class="h-30 w-30 rounded-full object-cover mx-auto " src="https://ca.slack-edge.com/T039KG69K-U03V0N804HE-a1af50c10b55-192" width="200" height="200" alt="Avatar"/>
-            <div>
-              <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Full Stack Software Developer</h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            </div>
-        </div>
-      </a>
-      <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-70 mt-4 w-30">
-        <div class="flex-column">
-          <Image class="h-30 w-30 rounded-full object-cover mx-auto " src="https://ca.slack-edge.com/T039KG69K-U03V0N804HE-a1af50c10b55-192" width="200" height="200" alt="Avatar"/>
-            <div>
-              <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Full Stack Software Developer</h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Keyan Taor<br></br>Full Stack Software Developer</h5>
+              <p class="font-normal text-gray-700 dark:text-gray-400"> Marine Corps veteran with a passion for web3 and crypto.Looking forward to pioneering the next generation of the web!</p>
+              <a href="https://github.com/Burmpf" className="text-gray-500 hover:text-gray-900 dark:hover:text-white flex justify-center">
+                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                        <span className="sr-only">GitHub account</span>
+                    </a>
             </div>
         </div>
       </a>
       </div>
-      
-    </div>
+      <div className="flex justify-center">
+      <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-70 mr-20  mt-4 w-30">
+        <div class="flex-column mb-2">
+          <Image class="h-30 w-30 rounded-full object-cover mx-auto " src="https://ca.slack-edge.com/T039KG69K-U03L05MFV0D-c579665bc967-512" width="200" height="200" alt="Avatar"/>
+            <div>
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Brian Sward<br></br>Data Engineer</h5>
+              <p class="font-normal text-gray-700 dark:text-gray-400">Math nerd who spends their personal time reading esoteric rule books trying to optimize board game strategies.<br></br> Brian's dog questions his life choices.</p>
+              <a href="https://github.com/BrianSward" className="text-gray-500 hover:text-gray-900 dark:hover:text-white flex justify-center">
+                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                        <span className="sr-only">GitHub account</span>
+                    </a>
+            </div>
+        </div>
+      </a>
+      <a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-70 mt-4 w-30">
+        <div class="flex-column">
+          <Image class="h-30 w-30 rounded-full object-cover mx-auto " src="https://ca.slack-edge.com/T039KG69K-U03UK4DJ5JR-52754228f88f-512" width="200" height="200" alt="Avatar"/>
+            <div>
+              <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Full Stack Software Developer</h5>
+              <p class="font-normal text-gray-700 dark:text-gray-400">FullStack Software Developer with a Bachelor degree in Business Administration/Finance Real Estate Broker Mortgage Loan Officer with over 10 years experience.</p>
+              <a href="https://github.com/dalexscully" className="text-gray-500 hover:text-gray-900 dark:hover:text-white flex justify-center">
+                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                        <span className="sr-only">GitHub account</span>
+                    </a>
+            </div>
+        </div>
+      </a>
+      </div>
+      </div>
   )
 }
