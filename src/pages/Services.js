@@ -11,7 +11,7 @@ export default function Services() {
     }
     console.log(info)
     let prediction;
-    fetch('/api/approval', {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/approval/`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
