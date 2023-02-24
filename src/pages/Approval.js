@@ -1,3 +1,4 @@
+import Confetti from 'react-confetti'
 export default function Approval({ prediction }) {
   return (
     <>
